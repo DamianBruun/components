@@ -1,11 +1,10 @@
-
 :root {
---brand-color: #19C7A9;
---dark-color: #302A38;
---mid-color: #55505C;
---light-color: #FFFFFF;
---base-font: Verdana, Geneva, Tahoma, sans-serif;
---brand-font: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+--brand-color: #FFC929;
+--dark-color: #155E75;
+--mid-color: #E5E7EB;
+--light-color: #F8FAFC;
+--base-font: 'Amulya', sans-serif;
+--brand-font: 'Synonym', sans-serif;
   }
 
   * {
@@ -15,7 +14,10 @@
   }
 
   body {
-    font-family: var(--base-font);
+    font-family: var(--base-font, --brand-font);
     background-color: var(--light-color);
   }
 
+  ul {
+    list-style: none;
+  }

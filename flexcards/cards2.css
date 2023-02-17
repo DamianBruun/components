@@ -1,0 +1,42 @@
+.cards2 {
+    width: 100%;
+    padding: 8vh 0;
+
+    background: var(--mid-color);
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.cards2 section {
+    flex: 0 1 300px;
+    align-self: stretch;
+    background: var(--light-color);
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px rgba(50, 50, 50, 0,3);
+    padding: 1.5rem;
+}
+
+.cards2 p {
+    font-size: smaller;
+    margin: 1rem 0;
+    color: var(--dark-color);
+}
+
+.cards2 h2 {
+    font-size: larger;
+    font-family: var(--brand-font);
+    color: black;
+    color: var(--dark-color);
+}
+
+.cards2 span {
+    color: var(--brand-color);
+}
+
+.cards2 .card-stars {
+    color: var(--brand-color);
+    text-align: center;
+}

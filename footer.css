@@ -1,0 +1,51 @@
+.footer-grid {
+    background-color: var(--mid-color);
+    color: var(--dark-color);
+    padding: 1rem;
+
+    display: flex;
+    place-items: baseline;
+    justify-content: space-evenly;
+    gap: 1rem;
+    width: 100%;
+}
+
+.footer-grid img {
+    width: 120px;
+    height: 100px;
+}
+
+.footer-grid h3 {
+    padding-bottom: 0.7rem;
+}
+
+.footer-grid p {
+    font-size: smaller;
+    padding: 0.1rem;
+}
+
+.footer-grid li {
+    font-size: smaller;
+    padding: 0.1rem;
+}
+
+i {
+    font-size: 1.2rem;
+    padding-top: 0.2rem;
+    padding-right: 0.3rem;
+}
+
+@media screen and (max-width: 600px) {
+    .footer-grid {
+        display: grid;
+        grid-template-rows: 1fr 0.7fr;
+        grid-template-columns: 1fr 1fr;
+        padding-left: 3rem;
+    }
+
+    .åbningstider {
+        grid-row: 1/1;
+        grid-column: 1/1;
+        padding-bottom: 2rem;
+    }
+}
